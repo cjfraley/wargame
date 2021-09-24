@@ -41,3 +41,60 @@ spec:
         image: httpd
         ports:
         - containerPort: 80
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: backend
+  labels:
+    app: wargame
+    tier: backend
+spec:
+  # modify replicas according to your case
+  replicas: 1
+  selector:
+    matchLabels:
+      tier: backend
+      app: wargame
+  #   tier: frontend
+  template:
+    metadata:
+      name: frontend
+      labels:
+        tier: backend
+        app: wargame
+    spec:
+      containers:
+      - name: backend
+        image: python
+        ports:
+        - containerPort: 80
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: db
+  labels:
+    app: wargame
+    tier: storage
+spec:
+  # modify replicas according to your case
+  replicas: 2
+  selector:
+    matchLabels:
+      tier: storage
+      app: wargame
+  #   tier: frontend
+  template:
+    metadata:
+      name: frontend
+      labels:
+        tier: storage
+        app: wargame
+    spec:
+      containers:
+      - name: db
+        image: python
+        ports:
+        - containerPort: 80
+
