@@ -95,6 +95,6 @@ The game ends when only one nation survives.
 - Required resources
 - Manufacturing resource requirements (city or settlement slots)
 
-## Micro Game
+## Micro Game (Not in MVP)
 
 Squad level tactical game.
