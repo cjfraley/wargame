@@ -1,3 +1,7 @@
+https://www.codementor.io/@codementorteam/react-beginner-tutorial-building-a-board-game-from-scratch-ajjkqr62x
+https://medium.com/@tylercmasterson/board-game-logic-in-react-199d6983fc23
+https://semaphoreci.com/community/tutorials/dockerizing-a-python-django-web-application
+
 # Instructions
 
 ## Macro Game
