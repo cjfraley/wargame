@@ -10,7 +10,7 @@ Goal: Shared world creation. Create an interesting army/nation with reasonable c
 
 If you want to add your own cards, write them out. If the players unanimously agree it can be part of the game, shuffle it into the mod card deck.
 
-#### 1. Create bare bones of nation
+#### 1. Create nation
 
 - Determine card points
   - 3 types of units. Start with these archetypes?
@@ -22,6 +22,7 @@ If you want to add your own cards, write them out. If the players unanimously ag
 - Get starter cards
 - Design units using starter cards
 - Determine civ density. Let's say 3 settlements, 2 cities to start, 1 Capital
+- Determine what resources you use for what
 
 
 #### 2. Create world
@@ -32,9 +33,6 @@ If you want to add your own cards, write them out. If the players unanimously ag
 
 2. Place cards under location tiles where called for.
 
-#### 3. Flesh out nation and world details
-
-- Determine what resources you use for what
 
 ### 2. Normal Play
 
