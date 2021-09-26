@@ -1,7 +1,3 @@
-https://www.codementor.io/@codementorteam/react-beginner-tutorial-building-a-board-game-from-scratch-ajjkqr62x
-https://medium.com/@tylercmasterson/board-game-logic-in-react-199d6983fc23
-https://semaphoreci.com/community/tutorials/dockerizing-a-python-django-web-application
-
 # Instructions
 
 ## Macro Game
@@ -11,6 +7,8 @@ https://semaphoreci.com/community/tutorials/dockerizing-a-python-django-web-appl
 Goal: Shared world creation. Create an interesting army/nation with reasonable creative freedom and meaningful gameplay changes.
 
 #### 0. Create custom cards
+
+If you want to add your own cards, write them out. If the players unanimously agree it can be part of the game, shuffle it into the mod card deck.
 
 #### 1. Create bare bones of nation
 
@@ -46,6 +44,8 @@ Goal: Simple grand strategy/4X fun.
 
 1. Resource gathering <!-- I'd like to have players need to wait a turn to get resource but without trying to -->
 
+2. Resolve tile effects like the center spire giving an automatic 1 point of damage (also considering `d6-3`)
+
 3. Move units to a max distance of their speed. Mountains cost 2 moves to move across. Water costs 3.
   1. If necessary resolve conflict
   1. If possible/desired, draw cards from owned tiles.
@@ -54,7 +54,10 @@ Goal: Simple grand strategy/4X fun.
 
 2. Build units
 - Choose a surviving city or settlement
-- Choose a unit with that
+- Choose a unit to create with that settlement
+- Return required resources to the bank
+
+1. If you capture a resource source in your movement phase,
 
 3. Pick where to spend resources and place required resources on it?
 
@@ -85,6 +88,19 @@ Goal: Simple grand strategy/4X fun.
 Goal: Climactic final showdowns.
 
 The game ends when only one nation survives.
+
+## Basic world info:
+
+### Composition of World:
+
+18 by 18, 324 squares (eventual plan to switch to hex system). See
+
+### Types of Resources:
+- Bones: Used for dark magic
+- Crystals: Used for most magic. Found in crystal caves
+- Wood/nature: Used as either a building material or for the natural energy of the forest
+- Food: Gathered from farmland. Used to support troops
+- Metal: Gathered from iron mountains. Build armor and advanced tools
 
 ## Unit descriptions
 
