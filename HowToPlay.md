@@ -4,15 +4,16 @@
 
 ### 1. Set Up
 
-Goal: Shared world creation. Create an interesting army/nation with reasonable creative freedom and meaningful gameplay changes.
-
 #### 0. Create custom cards
 
 If you want to add your own cards, write them out. If the players unanimously agree it can be part of the game, shuffle it into the mod card deck.
 
 #### 1. Create nation
 
-- Determine card points
+1. Determine what resources you use for creating your units: Draw 6 resource pips. Distribute as you wish on your 3 unit cost slots.
+2. Draw 2 mod cards and place them on your army sheet.
+
+<!-- - Determine card points
   - 3 types of units. Start with these archetypes?
     - Tank
     - DPS
@@ -22,21 +23,16 @@ If you want to add your own cards, write them out. If the players unanimously ag
 - Get starter cards
 - Design units using starter cards
 - Determine civ density. Let's say 3 settlements, 2 cities to start, 1 Capital
-- Determine what resources you use for what
-
+- Determine what resources you use for what -->
 
 #### 2. Create world
 
-1. Place Capitals equidistant around board. Go around in a circle laying available tiles until board is full.
-
-2. Go around circle placing settlements and cities in your sector of the board. Determine source of each unit type
-
-2. Place cards under location tiles where called for.
-
+<!-- 1. Place Capitals equidistant around board. Go around in a circle laying available tiles until board is full. -->
+1. Go in a circle placing tiles (including cities and settlements) until board is full.
+1. Place mod cards face down on treasure hunting sheet.
 
 ### 2. Normal Play
 
-Goal: Simple grand strategy/4X fun.
 
 #### On your turn
 

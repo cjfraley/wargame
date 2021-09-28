@@ -1,7 +1,8 @@
 # Tasks and Goals
 
 How can I make HP, Attack, and Defense equally-ish in viability.
-
+Goal: Shared world creation. Create an interesting army/nation with reasonable creative freedom and meaningful gameplay changes.
+Goal: Simple grand strategy/4X fun.
 ## Rules and Strategy
 
 Better establish why it's better to be captured than killed
