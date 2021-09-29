@@ -30,106 +30,69 @@ If you want to add your own cards, write them out. If the players unanimously ag
 <!-- 1. Place Capitals equidistant around board. Go around in a circle laying available tiles until board is full. -->
 1. Go in a circle placing tiles (including cities and settlements) until board is full.
 1. Place mod cards face down on treasure hunting sheet.
+1. Fill merchant sheet with 3 face up mod cards.
 
 ### 2. Normal Play
 
-
 #### On your turn
 
-1. Resource gathering <!-- I'd like to have players need to wait a turn to get resource but without trying to -->
+##### 1. Resource gathering <!-- I'd like to have players need to wait a turn to get resource but without trying to -->
+1. Gather resources from all placed gatherers.
 
-2. Resolve tile effects like the center spire giving an automatic 1 point of damage (also considering `d6-3`)
+2. Gather 1 resource adjacent to each settlement, 2 adjacent to each city and 3
+<!-- TODO determine limit on resource gatherers -->
 
-3. Move units to a max distance of their speed. Mountains cost 2 moves to move across. Water costs 3.
-  1. If necessary resolve conflict
-  1. If possible/desired, draw cards from owned tiles.
-  2. Place resource gathering tokens in captured territories (but not resources)
-  <!-- TODO determine limit on resource gatherers -->
+##### 2. Handle your troops
 
-2. Build units
-- Choose a surviving capital, city or settlement
+1. Resolve tile effects like the center spire giving an automatic 1 point of damage
+<!-- also considering `d6-3` -->
+1. A unit may skip its movement to place a gatherer on its current location or pick up a mod card from an unpillaged ruin.
+<!-- Should this have a resource cost? -->
+3. Move units to a max distance of their speed. Mountains cost 2 moves to move across. Water costs 3. Canyons have no extra cost if moving parallel to the canyon but cost 4 when moved perpendicular.
+  1. If necessary resolve combat
+4. Cities may attack
+5. Units on friendly capital, city or settlement may regain 1 hp up to their max.
+
+##### 3. Build units
+1. Choose surviving capital, cities or settlements to use for unit production.
   * Settlements can build a level 1 army
-  * Cities can build a level 2 army or 2 level 1s
-  * Capitals can build a level 3 army or a level 2 and level 1 or 3 x level 1 armies
-- Choose a unit to create with that settlement
-- Return required resources to the bank
+  * Cities can build a level 2 army or 2 x level 1 units
+  * Capitals can build a level 3 unit or a level 2 and level 1 or 3 x level 1 units
+1. Choose units to create with each location
+1. Pay required resources to the bank
 
-1. If you capture a resource source in your movement phase,
-
-3. Pick where to spend resources and place required resources on it?
-
-4. Remove a tile from the game board.  
-    If you can, you must remove a tile on the edge following the below rules. If none of these are available, follow the same rules for internal tiles
-    1. Unoccupied by any resource gatherers, any settlements and by any armies
-    1. Unoccupied by any gatherers
-    1. Unoccupied by any armies
-    1. Occupied by an enemy gatherer but not an enemy army
-    1. Occupied by an enemy army but not an enemy gatherer
-    1. Occupied by both an enemy army and an enemy gatherer
+##### 4. Remove a tile from the game board.  
+Remove the tile that has the minimum number of points based on the sum of the below characteristics. If multiple tiles are at minimum, you may choose which.
+- Not on the edge of the surviving world - 100
+- Occupied by an unused ruin or resource - 1
+- Occupied by a resource gatherer - 2  
+- Occupied by a city/capital/settlement - 3  
+- Occupied by a unit - 4  
 
 ####  Combat
-
 - Unless otherwise specified, only the primary attacking and defending army's special abilities are triggered
 - If attacking a city. Defender adds cities defense points to defending army
-- Cities can start a fight from 2 tiles away. Defending army can't cause any damage unless it has the range attribute and are within range
+- Ranged attackers can start combat from within their range attributes. Defending army can't cause any damage unless they have the range attribute and are within range.
+- Cities have a range attribute of 2 and an attack of 3 when empty and grant the range attribute to any occupying friendly army.
+- Capitals have a range attribute of 2 and an attack of 4 when empty and grant the range attribute to any occupying friendly army.
+- Units in friendly location gain +2 to defense or attack.
 
-1. Attacker roll 1 die per attack point on attacking army and any allied army adjacent to target army. <!-- Do I want to instead make exploding 6s a card -->
-1. Defender receives 1 point of damage per die rolled over the main defender's defense points or the highest defense points of a reinforcing defending army.
-1. If the defender survives, defender rolls 1 die per defense point of the main defender's defense points or the highest defense points of a reinforcing defending army.
-1. Attacker receives 1 point of damage for every die rolled above the attacking army's speed points.
+1. Attacker declares attack, target and which units are reinforcing.
+  - Units may reinforce if they are adjacent to the attacking or defending unit AND/OR if they are within their Range attribute of the attacking or defending army
+2. Defender declares reinforcements with same rules as attackers.
+1. Attacker rolls 1 die per attack point on attacking army and any allied army adjacent to target army. <!-- Do I want to instead make exploding 6s a card -->
+1. Defender receives 1 point of damage per die rolled over the main defender's defense points or the highest defending reinforcement defense points. If there are more points of damage than remaining HP of the main defender, the defending player has to choose how to distribute the remaining damage points among reinforcing defending armies.
+<!-- or the highest defense points of a reinforcing defending army -->
+1. If the defender survives and attacker is within range, defender rolls 1 die per defense point of all defending unit's defense points.
+
+1. Attacker receives 1 point of damage for every defense die rolled above the attacking army's speed points.
 <!-- Alternative dice 2. Defender roll 1 die per defense point on defending army and any allied army adjacent to target army. -->
 <!-- 3. Loser takes damage of difference
   - Reinforcing armies take remainder of damage after primary army is killed unless it's a ranged reinforcement -->
 1. If the defender is reduced to 1/2 health, the defender moves off of the tile they were defending in the direction of the attacker's movement.
 1. The attacker may move onto the defenders tile if the defender is pushed off or dies
-<!-- 4. Loser moves 1 space off the field of battle in the direction of movement of the attacker or its reverse -->
-
 
 ### 3. How it ends
 
-Goal: Climactic final showdowns.
-
 The game ends when only one nation survives.
-
-## Basic info:
-
-### Composition of World:
-
-18 by 18, 324 squares (eventual plan to switch to hex system). See
-
-### Types of Resources:
-- Bones: Used for dark magic
-- Crystals: Used for most magic. Found in crystal caves
-- Wood/nature: Used as either a building material or for the natural energy of the forest
-- Food: Gathered from farmland. Used to support troops
-- Metal: Gathered from iron mountains. Build armor and advanced tools
-
-### Unit attributes
-- Health
-- Attack
-- Defense
-- Speed
-- Mod slots
-- Resource slots
-
-#### Capture
-
-#### Range
-
-## Unit descriptions
-
-- Mod card numslots
-- Speed
-- Attack
-- Defense
-- Range
-- Health
-- Range (num of tiles between target and this unit)
-- Command distance (how many ally occupied tiles between this and furthest reinforcing army)
-- Required resources
-- Manufacturing resource requirements (city or settlement slots)
-
-## Micro Game (Not in MVP)
-
-Squad level tactical game.
 
