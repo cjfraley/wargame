@@ -1,4 +1,5 @@
 # Tasks and Goals
+Goal: Climactic final showdowns.
 
 How can I make HP, Attack, and Defense equally-ish in viability.
 Goal: Shared world creation. Create an interesting army/nation with reasonable creative freedom and meaningful gameplay changes.
