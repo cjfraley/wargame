@@ -1,13 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import { Board, ContainerView, BoardView } from './App';
 import reportWebVitals from './reportWebVitals';
 
+var board = new Board(15);
+console.log("Board class",Board)
+console.log("Board size at index.js", board.size)
+console.log("Board object",board)
+console.log("BoardView", BoardView)
+console.log(<BoardView board={board}/>)
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <BoardView board={board} />,
   document.getElementById('main')
 );
 
