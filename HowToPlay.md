@@ -10,8 +10,8 @@ If you want to add your own cards, write them out. If the players unanimously ag
 
 #### 1. Create nation
 
-1. Determine what resources you use for creating your units: Draw 6 resource pips. Distribute as you wish on your 3 unit cost slots.
-2. Draw 2 mod cards and place them on your army sheet.
+2. Draw 2 mod cards and place them on your army sheet as you wish.
+1. Determine what resources you use for creating your units: Draw 6 random resource pips. Distribute as you wish on your 3 unit cost slots.
 
 <!-- - Determine card points
   - 3 types of units. Start with these archetypes?
@@ -28,9 +28,15 @@ If you want to add your own cards, write them out. If the players unanimously ag
 #### 2. Create world
 
 <!-- 1. Place Capitals equidistant around board. Go around in a circle laying available tiles until board is full. -->
-1. Go in a circle placing tiles (including cities and settlements) until board is full.
+1. Place tiles onto board randomly, leaving central spire and player capitals uncovered. (simplification in process because atm this takes forever)
+2. Go around in a circle. Each player may move up to 8 tiles total by swapping them and 1 gets swap per turn. Each tile moved to make the swap counts. So for example if you swap a 4 square ocean tile with 4 x 1 square tiles, that counts as moving 5 tiles. Rotating a tile in place counts as moving 1 tile. This continues until all players pass or everyone is out of moves.
+<!-- TODO differentiate when it's "tile" and when it's "square" -->
+<!-- Alternative. Takes forever and ever. Go in a circle placing tiles (including cities and settlements) until board is full. -->
 1. Place mod cards face down on treasure hunting sheet.
 1. Fill merchant sheet with 3 face up mod cards.
+2. Place 1 of each unit type on your 3 settlements.
+<!-- Clarify naming. Smallest settlements are camps.
+Settlements are Capitals, Towns and Camps -->
 
 ### 2. Normal Play
 
