@@ -4,6 +4,8 @@ Goal: Climactic final showdowns.
 How can I make HP, Attack, and Defense equally-ish in viability.
 Goal: Shared world creation. Create an interesting army/nation with reasonable creative freedom and meaningful gameplay changes.
 Goal: Simple grand strategy/4X fun.
+
+# Unit base with some amount of customizability and space for a 25/28 mm miniature unit
 ## Rules and Strategy
 
 Better establish why it's better to be captured than killed
@@ -27,6 +29,7 @@ Figured out how to make placing a lot of tiles less of a drag?
 - Hogwarts
 - Mongols (fast attack)
 - Dwarven fortresses
+
 
 # Coding resources
 https://www.codementor.io/@codementorteam/react-beginner-tutorial-building-a-board-game-from-scratch-ajjkqr62x
@@ -54,6 +57,8 @@ Flag mode/bomb mode (flag and bomb takes mod slot)
 
 ## Unit Attributes
 
+Some sort of leadership attribute to help solve the whole asynchronicity issue?
+
 ### In MVP
 - Mod card slots
 - Speed
@@ -66,6 +71,7 @@ Flag mode/bomb mode (flag and bomb takes mod slot)
 ### Maybe added later
 - Command distance (how many ally occupied tiles between this and furthest reinforcing army)
 - Micro front, flank and rear defense
+- Forest nullifying range attributes?
 
 ## Micro Game (Not in MVP)
 
