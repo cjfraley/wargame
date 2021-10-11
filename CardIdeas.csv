@@ -2,3 +2,9 @@ Idea
 Level up a unit if it kills a unit that's a level above it
 Non-lethal dueling option (including among friendly units)
 Use collected resources as cheap weak units in micro game
+Can take a second move after attack
+Add unused speed points to attack points.
+Can choose to take X damage and add X dice to their attack
++2 S. Can split their movement between before and after attack.
+Can move back 1 space rather than receive counterattack damage.
+Moves defender when attacking regardless of amount of damage dealt
