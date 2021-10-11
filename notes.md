@@ -1,3 +1,58 @@
+# First playtest notes
+Player wants more punishment for occupying capital
+Cards on basic for cost or all cards?
+Should units be able to counterattack if they are knocked back and are not followed?
+Clarify units can move after attack
+Change: Can get gold from occupied mine
+First turn gold is a major differentiator
+More speed up cards
+On the fly change: removed center spire damage
+Buy speed?
+Move before or after counterattack
+On the fly change: no healing in capital
+Give King of Tokyo a shot
+People are into economic victory or advantage
+Center Track: (Dice tower, stacked cubes)
+Thematic pnemonic
+Spawn, Gold, Action
+Buff ruins?
+Healing to action. Too weak at 1hp? Full heal for an action
+Refilling the market being an action?
+Action to swap cards out
+Autorefill
+Action to buy
+Multi buy a single action?
+Much less cards use than expected
+Speed OP
+Speed up for hero
+Ocean barrier going down is very binary
+Pacman style wraparound
+Name: The Tower of Spugah
+Bonking is confusing
+Spawn and then buff too strong
+Move thru to attack issue
+Split speed and water passage cards
+More attack cards
+If you hold a capital can choose to kill one of their units
+Create a unit for free, where?
+Consistency in actions
+Only need defense to defend but need attack and speed to be aggressive
+Early win decision option
+2 cards in ruins
+Do you need the speed if attacking someone on a mountain
+More territory invasion
+Arms race to cross water
+Bridge as part of your board
+Stealing stuff
+Debrief questions:
+Anything that just feels like busy work?
+Cards you'd like?
+What were the highlights?
+Hero vs basics choices
+Order of actions
+Forcing movement to prioritize stuff
+Everyone fighting in thecenter
+Frustrations?
 # Tasks and Goals
 Goal: Climactic final showdowns.
 

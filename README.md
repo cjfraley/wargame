@@ -1,12 +1,14 @@
 # ToDo List
-- Create stuff for mvp game
+- Organize notes from initial test game
+- Create inventory of cards
+- ~Create stuff for mvp game~
 - MVP webapp
 - Dynamic instructions built from options
 - Reduce amount of water in tiles
-## Physical prototypes
+<!-- ## Physical prototypes
 - Cardboard tiles and tray
 - Shop and ruin sheets
-- Farm tiles
+- Farm tiles -->
 # Goals/Ideas
 
 ## Core Hooks
