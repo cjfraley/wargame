@@ -1,14 +1,29 @@
+# The Tower of Spugah
+
 # ToDo List
 - Organize notes from initial test game
-- Create inventory of cards
+- ~Create inventory of cards~
 - ~Create stuff for mvp game~
 - MVP webapp
 - Dynamic instructions built from options
 - Reduce amount of water in tiles
+- Either move past rectangular tile version or make the first turn gold mine impossible
+- Add more speed up/water crossing cards
+- Split speed and water crossing cards (maybe even convert most to speed down cards)
+- Clarify on cards, when unit created, where does it go?
+- Edit rules for consistency
+  - Actions
+  - Occupied gold gathering
+- On physical prototype, add easy way to track center spire occupation. When using dice as soldiers, it made sense to build a dice tower
+- Rectangular prototype: Add bridge to quadrant tile
+- Illustrate directions (especially bonking)
+- Add some more attack based cards
+
 <!-- ## Physical prototypes
 - Cardboard tiles and tray
 - Shop and ruin sheets
 - Farm tiles -->
+
 # Goals/Ideas
 
 ## Core Hooks

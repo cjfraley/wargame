@@ -29,7 +29,7 @@
 <!-- XXX Do I want to use the ocean aisles? -->
 
 1. Fill the shop sheet with cards face up. Roll a die per card to determine their prices.
-1. Fill ruins sheet with face down cards.
+1. Fill ruins sheet with face down cards. There should be 2 cards for each ruin.
 1. Go around the circle, with each player placing their quadrant panel in their chosen orientation.
 2. If necessary, split the extra quadrant panels between the players and place them on the board in the same order.
 
@@ -49,7 +49,15 @@ Contains:
 ### 2. Normal Play
 
 #### On your turn
-##### 1. Build units
+
+As a general guideline, your turn has 3 steps:
+- Recruit units
+- Gather gold
+- Take Action or Move and Attack
+
+Sometimes referred to as SpGA (pronounced Spugah) for Spawn, Gold, Action.
+
+##### 1. Recruit units
 You may build units on your capital if your capital is unoccupied (including by friendly forces).
 1. Pay to the bank the number of mod cards on the unit +1 gold.
 1. Place your new unit on your capital. It may start moving this turn but no additional units can be built that turn (if not allowed by a mod card).
@@ -73,14 +81,20 @@ You may build units on your capital if your capital is unoccupied (including by 
   - Buy a mod card from a merchant
   - Refill the merchant
   - Take over an existing gold mine
-  - Take 2 gold from an occupied player's capital
-  - Take 1 mod card from an occupied capital's treasury
+  - Take 2 gold from an occupied capital's player
+  - Take 1 mod card from an occupied capital's extra cards
+	- Heal completely on capital
+	- Heal completely heal 1/2 your max health on medic space up to full health
 1. Mod card handling:
   - Newly acquired mod cards can be placed onto your hero, your regular unit or your extra cards slot.
   - You may skip moving any units to rearrange cards between your hero, regular soldiers and extra cards.
 <!-- Should this have a resource cost instead? -->
 3. Move units and/or declare attacks. Players can move their units to one adjacent tile per speed point. This does not include diagonals (that's 1 vertical and 1 horizontal movement). Moving onto a mountain costs 2 speed points, moving onto an ocean costs 3. This does mean that you will need a mod card on a unit for it to be able to cross the ocean into other player's territory.
-  - The player moving units can potentially make attacks which start [combat](####Combat). A unit may attack either by moving into the same square as an enemy unit or by moving within their range of an enemy unit and declaring an attack on that unit. A unit cannot move after attacking even if they have extra movement points left.
+  - The player moving units can potentially start [combat](####Combat).
+		- A unit may attack either by moving into the same square as an enemy unit or by moving within their range of an enemy unit and declaring an attack on that unit.
+			- A unit must be able to move onto the square they are attacking
+		- A unit cannot move after attacking even if they have extra movement points left.
+		- A unit cannot attack while passing through a friendly unit.
 <!-- 4. Capital may attack by itself if unoccupied. -->
 <!-- 5. Units on friendly capital may regain 1 hp up to their max. -->
 <!-- XXX Does this create a dominant strategy of stacking the high defense units behind attacking units? -->
@@ -96,11 +110,17 @@ You may build units on your capital if your capital is unoccupied (including by 
     - Have not defended or reinforced a defense this turn
     - Are adjacent to the primary attacking or defending unit AND/OR if they are within their Range attribute of the attacking or defending army
 1. Attacker rolls 1 attack die per attack point on the attacking army and all reinforcing attackers.
-1. Defending side receives 1 point of damage per attack die which rolls above or equal to the highest defense points among defender and defending reinforcements. If the defender or defending reinforcements are in their own home capital, they may add 2 to that number up to a max of 6. Damage must first go to the primary defender and then may be distributed as the defeneder wishes among defending reinforcements. No defending unit may receive more damage than its current health. Any defender with their health brought to 0 is considered dead and is removed from the board.
-1. If the primary defender survives, they may choose to counterattack:
+1. Defending side receives 1 point of damage per attack die which rolls above or equal to the highest defense points among defender and defending reinforcements.
+	- If the defender or defending reinforcements are in their own home capital, they may add 2 to that number up to a max of 6.
+	- Damage must first go to the primary defender and then may be distributed as the defending player wishes among defending reinforcements.
+	- No defending unit may receive more damage than its current health. Any defender with their health brought to 0 is considered dead and is removed from the board.
+1. If the primary defender is reduced to 1/2 health or below, the primary defender moves off of the tile they were defending in the direction of the attacker's movement.
+	- If there is an army on the defender's side in the way, they can be "bumped" in the same direction.
+	- If there is an enemy army in the way, the primary defender is dead and removed from the game.
+1. If the primary defender survives and the primary attacker is within range, the defender may choose to counterattack:
   - The defender rolls 1 die per the highest defense points among the primary defender and defending reinforcements. If the defender or defending reinforcements are in their own home capital, they may add 2 to that number up to a max of 6.
 1. Attacker receives 1 point of damage for every defense die rolled above the attacking army's speed points.
-1. If the primary defender is reduced to 1/2 health or below, the primary defender moves off of the tile they were defending in the direction of the attacker's movement. If there is an army on the defender's side in the way, they can be "bumped" in the same direction. If there is an enemy army in the way, the primary defender is dead and removed from the game.
+
 1. The attacker may move onto the defenders tile if the defender is pushed off or dies.
 
 ##### Combat Notes
@@ -112,12 +132,17 @@ You may build units on your capital if your capital is unoccupied (including by 
 
 ### 3. How it ends
 
-The game ends when only one nation survives or when any nation can occupy the center spire for 5 continuous turns. These can be different units but must continuously be held by the same nation.
+There are 3 ways to win:
+
+#### Conquest Victory
+Be the only surviving nation. Nations are eliminated when their capital is occupied and they have no remaining units.
+#### Economic Victory
+Start your turn with 20 or more gold.
+#### Spire Victory
+Occupy the center spire for 3 continuous turns. Counts as a turn only if you start and end your turn on the spire. These can be different units but must continuously be held by the same nation.
   - A unit could move off and a second could move on in the same turn and remain continuous.
   - If a unit is knocked off the center spire on an opponents turn and then regains the center spire on their next turn, it is no longer considered continuous.
   - If a unit is killed by the spire itself, and another moves on to the center spire in the same turn, it is considered continuous.
-<!-- XXX Econ victory at 20 gold? -->
-Nations are eliminated when their capital is occupied and they have no remaining units.
 
 <!-- ## Captured units
 
@@ -126,13 +151,14 @@ Captured units are put off the board and are considered to be in the capital dun
 The owner of the dungeon can offer to ransom captured units to their owners. -->
 
 
-## Unit start stats
+## Unit starting stats
 
 * Hero
   - Health: 5
   - Defense: 3
   - Attack: 3
   - Speed: 2
+	<!-- Do I want to increase the speed of the hero? -->
 * Reg
   - Health: 3
   - Defense: 2

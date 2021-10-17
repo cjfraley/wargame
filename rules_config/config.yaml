@@ -1,0 +1,25 @@
+EdgeBonk:
+  - Death
+  - Pacman wraparound
+CentralSpire:
+  TurnCount: 3
+CapitalCaptured:
+  - Can't spawn
+  - Auto lose
+  - Every occupied turn kill a unit
+Unit Cost:
+  - Static
+  - Basic cost + num mod cards on unit
+  - Basic cost + all collected cards
+Counterattack:
+  - Always
+  - If alive
+  - If alive and attacker moves in
+Merchant:
+  - Action to purchase, action to refill
+  - Auto refill, action to swap, action to buy
+Ruins:
+  - Only 1
+  - Auto refill
+  - Limited:
+      int
