@@ -1,7 +1,7 @@
 # The Tower of Spugah
 
 # ToDo List
-- Organize notes from initial test game
+- ~Organize notes from initial test game~
 - ~Create inventory of cards~
 - ~Create stuff for mvp game~
 - MVP webapp
