@@ -1,3 +1,5 @@
+`python3 rules_assembler/scratch.py rules_con
+fig/mvptest.yaml > test.md`
 # External Documents
 [Scratchpad for approved users](https://docs.google.com/spreadsheets/d/1SqPaM-jYs_t_nmvrggNWgCnIZnRa9HCgeLDSRLtYyLs/edit#gid=0)
 
