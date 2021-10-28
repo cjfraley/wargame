@@ -1,0 +1,25 @@
+Tower of Spugah:
+  Setup:
+    1. Create Nation:
+      rules_config/00_Setup/00_CreateNation/hex_v1.md
+    2. Create World:
+      rules_config/00_Setup/01_CreateWorld/hex_v1.md
+    3. Initial Unit Placement:
+      rules_config/00_Setup/02_UnitPlacement/hex01.md
+    4. Other Setup:
+      rules_config/00_Setup/01_CreateWorld/outside_setup/v01.md
+  Normal Play:
+    - rules_config/01_NormalPlay/start.md
+    - 1. Recruit units:
+        rules_config/01_NormalPlay/recruit.md
+    - 2. Gather gold:
+        rules_config/01_NormalPlay/gather.md
+    - 3. Troop Movement:
+        rules_config/01_NormalPlay/unit_movement.md
+  How the game ends:
+    Economic Victory:
+      rules_config/02_Ending/econ_victory.md
+    Elimination Victory:
+      rules_config/02_Ending/elimination_victory.md
+    Spire Victory:
+      rules_config/02_Ending/spire_victory.md

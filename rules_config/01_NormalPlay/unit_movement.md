@@ -1,5 +1,3 @@
-##### 3. Handle your troops
-
 1. Resolve start of turn tile effects:
   - Center Spire:
     Take 1 damage

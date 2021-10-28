@@ -1,0 +1,1 @@
+If any player begins their turn with more than 30 resources, they win.

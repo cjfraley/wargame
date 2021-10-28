@@ -1,6 +1,4 @@
-### 2. Normal Play
-
-#### On your turn
+# On your turn
 
 As a general guideline, your turn has 3 steps:
 - Recruit units

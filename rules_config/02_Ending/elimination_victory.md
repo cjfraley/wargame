@@ -1,0 +1,1 @@
+You can eliminate other players by occupying their capital and defeating all of their units. 

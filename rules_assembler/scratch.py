@@ -9,7 +9,7 @@ def create_instructions(config, depth_level=0):
     elif isinstance(config, list):
         for entry in config:
             entry_str=create_instructions(entry,depth_level=depth_level+1)
-            output+=("\n- "+entry_str)
+            output+=(entry_str)
     elif isinstance(config,str):
         if ".yaml" in config:
             with open(config, "r") as config_file:
@@ -28,6 +28,7 @@ def create_instructions(config, depth_level=0):
             output+=config
     else:
         raise(Exception(str(type(config))+" not yet supported object"))
+    output+="\n"
     return output
 
 if __name__ == '__main__':
