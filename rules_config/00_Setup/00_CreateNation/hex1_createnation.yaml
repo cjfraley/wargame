@@ -1,0 +1,13 @@
+1. Fill Out Nation Sheet:
+  Full Sheet:
+    col:
+      nationsheet.csv
+  Your story:
+    - Fill in your nations name and the adjective used to describe those who come from your nation and your lands
+    - Optionally sketch your nations flag or emblem
+    - Write a one sentence explanation on why your nation should be the one to survive.
+  Tile Choices:
+    - You have 15 choices to make describing your nation in both makeup and geography represented by the two sides of your 15 tiles. Some tiles will simply be a choice of which type of terrain you'd like to include on your nation. Others will have consequences for your army.
+    - nationsheet.csv,6,26,0,4
+2. Turn tiles corresponding to nation creation choices face up and place them in your continent tray:
+  - null

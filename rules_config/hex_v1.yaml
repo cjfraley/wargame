@@ -1,7 +1,10 @@
 Tower of Spugah:
   Setup:
     1. Create Nation:
-      rules_config/00_Setup/00_CreateNation/hex_v1.md
+      rules_config/00_Setup/00_CreateNation/hex1_createnation.yaml
+      # - rules_config/00_Setup/00_CreateNation/hex_v1.md
+      # - col:
+      #     nationsheet.csv
     2. Create World:
       rules_config/00_Setup/01_CreateWorld/hex_v1.md
     3. Initial Unit Placement:
