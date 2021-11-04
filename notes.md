@@ -23,11 +23,11 @@ Stealing stuff
 - Should buying multiple cards from the merchant be a single action?
 - First playtest involved much less card usage than I was expecting
 - Is it too much of a dominant strategy to spawn and then buff?
--
+
 # Tasks and Goals
 Goal: Climactic final showdowns.
 
-How can I make HP, Attack, and Defense equally-ish in viability.
+How can I make HP, Attack, and Defense equal-ish in viability.
 Goal: Shared world creation. Create an interesting army/nation with reasonable creative freedom and meaningful gameplay changes.
 Goal: Simple grand strategy/4X fun.
 

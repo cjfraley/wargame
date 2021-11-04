@@ -14,3 +14,4 @@
     - Example Full Unit Description:
         col: nationsheet.csv,0,15,5,-1
     - rules_config/00_Setup/00_CreateNation/create_army_v1.md
+    # TODO describe merchant and ruin sheets

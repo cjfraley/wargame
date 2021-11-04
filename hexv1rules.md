@@ -160,6 +160,7 @@ Depending on your tile choices you will have 1, 2 or 3 kinds of units organized 
 
 
 ### 2. Create World
+<!-- TODO Add tile orientation for multiple player counts -->
 1. Go clockwise around the players each one placing their continent tray on the table around the center spire.
 
 2. Go around in the reverse order (starting with last player to place their tile). Each player may choose to rotate their tray.
@@ -231,17 +232,51 @@ You may build units on your capital if your capital is unoccupied (including by 
 
 
 
+#### 4. Tile Removal
+Remove the tile that has the minimum number of points based on the sum of the below characteristics. If multiple tiles are at minimum, you may choose which.
+- Not on the edge of the surviving world: 100
+- Occupied by an unused ruin or resource: 1
+- Occupied by a resource gatherer: 2  
+- Occupied by a Capital/Castle: 3  
+- Occupied by a unit: 4  
+
+
+
+
+
 ## How the game ends
-### Economic Victory
-If any player begins their turn with more than 30 resources, they win.
-### Elimination Victory
-You can eliminate other players by occupying their capital and defeating all of their units. 
 ### Spire Victory
 Occupy the center spire for 3 continuous turns. Counts as a turn only if you start and end your turn on the spire. These can be different units but must continuously be held by the same nation.
   - A unit could move off and a second could move on in the same turn and remain continuous.
   - If a unit is knocked off the center spire on an opponents turn and then regains the center spire on their next turn, it is no longer considered continuous.
   - If a unit is killed by the spire itself, and another moves on to the center spire in the same turn, it is considered continuous.
 
+  
+### Elimination Victory
+You can eliminate other players by occupying their capital and defeating all of their units. 
+### Economic Victory
+If any player begins their turn with more than 30 resources, they win.
+
+
+# Appendices
+## Tile Glossary
+
+| Tile |  Effect |  Effect when adjacent to cursed earth |
+|-----|-----|-----|
+| Gold Vein |  Units can use their turn to build a gold mine. If a gold mine is unoccupied (including by friendly units) its owner gets 2 gold during the gold part of their turn. |  Units can use their turn to build a gold mine. If a gold mine is unoccupied (including by friendly units) its owner gets 1 gold during the gold part of their turn. |
+| Ruin |  "Once per game |  a unit can use their turn to search the ruins. They get their choice of the 2 cards on the corresponding place on the ruin sheet." |  "Once per game |  a unit can use their turn to search the ruins. They get the top card (without viewing the other) of the 2 cards on the corresponding place on the ruin sheet. The unselected card is returned to the deck." |
+| Merchant |  Units can use their turn to buy one of the mod cards from the merchant sheet for the referenced cost of gold. |  Units can use their turn to buy one of the mod cards for double their normal gold cost |
+| Ocean |  Units must use 3 movement points to move into an ocean tile unless moving from a port. |
+| Royal Fortress |  Used to spawn units or generate 1 gold if unoccupied. Grants +2 defense to any friendly occupying unit. Can defend even if unoccupied (2 defense points |  1 Health) |
+| Capital City |  Used to spawn units or generate 2 gold if unoccupied |
+| Medic |  Units can use their turn to heal to full health |  Units can use their turn to heal 1 point |
+| Road |  Costs no movement points to move through |
+| Cursed Earth |  Units passing through or ending their turn on cursed earth lose 2 health |  Units passing through or ending their turn here take 4 damage |
+| Mountain |  Units must use 2 movement points to move into a mountain. Units in mountains get +1 defense (up to a max of 6) |  No defense bonus |
+| Castle |  Can spawn units for their normal cost +1. Defense +1 to owner occupied units. |  Spawning units costs double. No defense bonus |
+| Forest |  Units in forests have immunity to range attacks |  Units passing through or ending their turn here lose 1 health |
+| Port |  Allows units to move through ocean tiles without penalty for 1 turn |  Allows units to move into 1 adjacent ocean tile without penalty |
+| Portal |  "Units can move through this tile to teleport to the nearest other portal on the map. If there are no other portals |  this tile acts as a ruin" |  Can still be used as a portal but units using the portal take 1d6 damage |
 
 
 

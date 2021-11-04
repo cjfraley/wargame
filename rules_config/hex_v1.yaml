@@ -19,10 +19,15 @@ Tower of Spugah:
         rules_config/01_NormalPlay/gather.md
     - 3. Troop Movement:
         rules_config/01_NormalPlay/unit_movement.md
-  How the game ends:
-    Economic Victory:
-      rules_config/02_Ending/econ_victory.md
-    Elimination Victory:
-      rules_config/02_Ending/elimination_victory.md
+    - 4. Tile Removal:
+        rules_config/01_NormalPlay/tile_removal_00.md
+  How the game ends: # TODO figure out why indentation gets fucked sometimes
     Spire Victory:
       rules_config/02_Ending/spire_victory.md
+    Elimination Victory:
+      rules_config/02_Ending/elimination_victory.md
+    Economic Victory:
+      rules_config/02_Ending/econ_victory.md
+Appendices:
+  Tile Glossary:
+    rules_config/tile_glossary.csv
