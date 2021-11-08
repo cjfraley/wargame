@@ -204,17 +204,18 @@ You may build units on your capital if your capital is unoccupied (including by 
   - Center Spire:
     Take 1 damage
     <!-- also considering `d6-3` -->
-  - Medic:
-    Gain 1 health (up to the max health)
+  <!-- - Medic:
+    Gain 1 health (up to the max health) -->
 1. A unit may skip its movement and attack to take 1 of the following actions on their current location:
+<!-- TODO reconcile with tile_glossary -->
   - Place a gatherer on a gold mine
-  - Pick up a mod card from an unpillaged ruin
+  - Pick up a mod card from a ruin
   - Buy a mod card from a merchant
   - Refill the merchant
   - Take over an existing gold mine
   - Take 2 gold from an occupied capital's player
   - Take 1 mod card from an occupied capital's extra cards
-	- Heal completely on capital
+	- Heal completely on own capital
 	- Heal completely heal 1/2 your max health on medic space up to full health
 1. Mod card handling:
   - Newly acquired mod cards can be placed onto your hero, your regular unit or your extra cards slot.
@@ -235,7 +236,7 @@ You may build units on your capital if your capital is unoccupied (including by 
 #### 4. Tile Removal
 Remove the tile that has the minimum number of points based on the sum of the below characteristics. If multiple tiles are at minimum, you may choose which.
 - Not on the edge of the surviving world: 100
-- Occupied by an unused ruin or resource: 1
+- Occupied by an ruin, unmined gold or merchant: 1
 - Occupied by a resource gatherer: 2  
 - Occupied by a Capital/Castle: 3  
 - Occupied by a unit: 4  

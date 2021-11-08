@@ -1,3 +1,8 @@
+Write out explicit find rules:
+  Roll >=(6-tier), Takes an action
+
+Up bonus for not having units
+
 `python3 rules_assembler/scratch.py rules_con
 fig/mvptest.yaml > test.md`
 # External Documents
@@ -36,8 +41,8 @@ Goal: Simple grand strategy/4X fun.
 
 Better establish why it's better to be captured than killed
 
-Figured out how to make placing a lot of tiles less of a drag?
-- Engineering solution (complicated and expensive)
+~Figured out how to make placing a lot of tiles less of a drag?~
+~- Engineering solution (complicated and expensive)~
 
 ## Nation creation
 
