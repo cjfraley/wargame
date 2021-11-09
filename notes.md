@@ -1,7 +1,48 @@
 Write out explicit find rules:
   Roll >=(6-tier), Takes an action
 
+Need to rethink Range
+
 Up bonus for not having units
+
+Add cost to army sheet
+
+Need to better consider what happens when someone min maxes. For example: no mod cards, no speed lots of range and attack.
+
+Consistency vs expediency: Do we want to have occupied gold mines create gold?
+
+Without extra consequences, why would someone choose to not to have a castle?
+
+Clarify division rounds down
+
+How do I handle void neighbor advantage
+- Pacman rules for the void unless bumped?
+- Alternate layouts?
+- Custom layout each time
+  1. Everyone takes turn placing empty trays around center spire
+  1. Bid number of cards required to take any of the trays as their own
+
+Can number of attributes be shaved down?
+
+Is range attack and move overpowered together?
+Is camping in the forest with range attacks overpowered?
+
+Make attributes nice and big
+What if you only start with your hero(s)?
+
+Thoughts on Must include X empty spaces?
+
+Rings for tile ownership
+
+Is using a ranged unit from a forest overpowered?
+
+Is range attack in the same turn as moving overpowered?
+
+Hard to tell when you're in or out of range/track power at a glance
+
+How can I cut down on the setup steps?
+
+How do I emphasize the mod cards? (besides starting with the same regular units)
 
 `python3 rules_assembler/scratch.py rules_con
 fig/mvptest.yaml > test.md`
