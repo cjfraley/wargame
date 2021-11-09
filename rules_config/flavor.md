@@ -1,0 +1,2 @@
+# Basic idea
+You are the leader of a nation. Either through arcane studies, religious epiphany or the wonders of science your people have discovered the reality of your dissolving world: it is the dream of a god. It will awaken soon and destroy your world completely. However if you are the only nation left, the god may drag you into the real world with its awakening allowing you and your people to survive.
