@@ -1,0 +1,1 @@
+Remove one of your country's tiles that is touching the void and is not occupied by an enemy. If all tiles connecting a tile to the center spire are removed, that tile is also removed even if it does have a unit on it.
